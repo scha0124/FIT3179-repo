@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Population density in Asia 2021",
+  "width": 600,
+  "height": 800,
+  "data": {
+    "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/js/asia.geo.topojson",
+    "format": {
+          "type": "topojson",
+          "feature": "custom.geo"
+        }
+  },
+  "transform": [{
+      "lookup": "properties.admin",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/data/Population%20in%20Asia%202021.csv"
+        },
+        "key": "Country",
+        "fields": ["Population"]
+      }
+    }
+  ],
+  "projection": { 
+    "type": "equirectangular"
+  },
+  "mark": {
+    "type" : "geoshape"
+  },
+  "encoding": {
+    "color": {
+      "field": "Population",
+      "type": "quantitative",
+      "scale": {
+"type": "threshold",
+"domain": [100, 300, 1000],
+"range": ["#BCC6CC", "#98AFC7", "#4863A0", "#151B54"]
+}
+        
+    },
+
+      "tooltip": [
+        {"field": "properties.admin", "type": "nominal", "title": "Countries"},
+        {"field": "Population", "type": "quantitative"}
+      ]
+    }
+
+}
