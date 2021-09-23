@@ -33,7 +33,7 @@
       "type": "quantitative",
       "scale": {
 "type": "threshold",
-"domain": [100, 200, 400, 600, 800, 1000, 1200],
+"domain": [100, 300, 1000],
 "range": ["#BCC6CC", "#98AFC7", "#4863A0", "#151B54"]
 }
         
