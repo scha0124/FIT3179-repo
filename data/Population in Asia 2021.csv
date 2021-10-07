@@ -1,4 +1,4 @@
-﻿Country,Population
+﻿Country,Population (P/Km2)
 China,153
 India,464
 Indonesia,151
@@ -30,17 +30,23 @@ Azerbaijan,123
 United Arab Emirates,118
 Tajikistan,68
 Israel,400
+Hong Kong,7140
 Laos,32
 Lebanon,667
 Kyrgyzstan,34
 Turkmenistan,13
+Singapore,8358
+Palestine,847
 Oman,16
 Kuwait,240
 Georgia,57
 Mongolia,2
 Armenia,104
 Qatar,248
+Bahrain,2239
 Timor-Leste,89
 N. Cyprus,131
 Bhutan,20
+Macao,21645
+Maldives,1802
 Brunei,83
