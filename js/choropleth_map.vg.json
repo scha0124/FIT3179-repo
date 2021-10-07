@@ -17,7 +17,7 @@
           "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/data/Population%20in%20Asia%202021.csv"
         },
         "key": "Country",
-        "fields": ["Population"]
+        "fields": ["Population (P/Km2)"]
       }
     }
   ],
@@ -29,7 +29,7 @@
   },
   "encoding": {
     "color": {
-      "field": "Population",
+      "field": "Population (P/Km2)",
       "type": "quantitative",
       "scale": {
 "type": "threshold",
@@ -41,7 +41,7 @@
 
       "tooltip": [
         {"field": "properties.admin", "type": "nominal", "title": "Countries"},
-        {"field": "Population", "type": "quantitative"}
+        {"field": "Population (P/Km2)", "type": "quantitative"}
       ]
     }
 
