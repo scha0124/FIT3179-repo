@@ -10,16 +10,30 @@
           "feature": "custom.geo"
         }
   },
-  "transform": [{
-      "lookup": "properties.admin",
+  "params": [
+    {
+      "name": "Population_Above",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 1000,
+        "step": 100,
+        "name": "Minimum Population: "
+      }
+    }
+  ],
+  "transform": [
+    { "lookup": "properties.admin",
       "from": {
         "data": {
           "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/data/Population%20in%20Asia%202021.csv"
         },
         "key": "Country",
-        "fields": ["Population (P/Km2)"]
+        "fields": ["Population"]
       }
-    }
+    },
+    {"filter": "datum.Population > Population_Above"}
   ],
   "projection": { 
     "type": "equirectangular"
@@ -29,19 +43,19 @@
   },
   "encoding": {
     "color": {
-      "field": "Population (P/Km2)",
+      "field": "Population",
       "type": "quantitative",
       "scale": {
 "type": "threshold",
-"domain": [100, 300, 1000],
-"range": ["#BCC6CC", "#98AFC7", "#4863A0", "#151B54"]
+"domain": [100, 300, 500, 1000],
+"range": ["#BCC6CC", "#98AFC7", "#4863A0", "#05137A", "#151B54"]
 }
         
     },
 
       "tooltip": [
         {"field": "properties.admin", "type": "nominal", "title": "Countries"},
-        {"field": "Population (P/Km2)", "type": "quantitative"}
+        {"field": "Population", "type": "quantitative"}
       ]
     }
 
