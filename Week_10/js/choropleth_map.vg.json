@@ -38,11 +38,11 @@
   "projection": { 
     "type": "equirectangular"
   },
-  "mark": {
-    "type" : "geoshape"
-  },
-  "encoding": {
-    "color": {
+  "layer":[ 
+    {
+      "mark": "geoshape",
+      "encoding": {
+      "color": {
       "field": "Population",
       "type": "quantitative",
       "scale": {
@@ -57,6 +57,8 @@
         {"field": "properties.admin", "type": "nominal", "title": "Countries"},
         {"field": "Population", "type": "quantitative"}
       ]
-    }
+    }}
+  
+  ]
 
 }
