@@ -17,22 +17,22 @@
       "mark": "line",
       "encoding": {
         "x": {"field": "Year", "type": "nominal"},
-        "y": {"field": "Population (P/km2)", "type": "quantitative"},
+        "y": {"field": "Population", "type": "quantitative"},
         "color": {"field": "Country", "type": "nominal"},
         "tooltip": [
             {"field": "Country", "type": "nominal", "title": "Country"},
-            {"field": "Population (P/km2)", "type": "nominal"}
+            {"field": "Population", "type": "nominal"}
           ]
         }
     },{
         "mark": "circle",
         "encoding": {
           "x": {"field": "Year", "type": "nominal"},
-          "y": {"field": "Population (P/km2)", "type": "quantitative"},
+          "y": {"field": "Population", "type": "quantitative"},
           "color": {"field": "Country", "type": "nominal"},
           "tooltip": [
               {"field": "Country", "type": "nominal", "title": "Country"},
-              {"field": "Population (P/km2)", "type": "nominal", "title": "Population (Person / km)"}
+              {"field": "Population", "type": "nominal", "title": "Population (Person / km)"}
             ]
           }
       },{
