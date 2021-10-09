@@ -4,7 +4,7 @@
     "width": 500,
     "height": 300,
     "data": {
-      "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/data/Population%20Growth%20in%20ASEAN%20countries.csv"
+      "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/Week_10/data/Population%20Growth%20in%20ASEAN%20countries.csv"
     },
     "encoding": {
         "color": {
@@ -38,7 +38,7 @@
       },{
         "encoding": {
             "x": {"aggregate":"max", "field": "Year", "type": "nominal", "title": "Year"},
-            "y": {"aggregate":{"argmax": "Country"}, "field": "Population (P/km2)","type": "quantitative","title": "Population (Person / km2)"}
+            "y": {"aggregate":{"argmax": "Country"}, "field": "Population","type": "quantitative","title": "Population (Person / km2)"}
         },
     "layer": [{
         "mark": {"type": "text", "align": "left", "dx": 10},
