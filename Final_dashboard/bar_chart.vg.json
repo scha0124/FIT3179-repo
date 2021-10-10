@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Bar chart with text labels. Set domain to make the frame cover the labels.",
+    "data": {
+        "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/Final_dashboard/data/ASEAN%20Countries%20median%20age.csv"
+      },
+    "encoding": {
+      "x": {"field": "Med_age", "type": "quantitative", "scale": {"domain":[0,50]}, "title": "Median age"},
+      "y": {"field": "Country", "type": "nominal"}
+    },
+    "layer": [
+        {
+        "mark": {"type": "bar", "height": 3},
+        "encoding": {
+            "detail":{
+                "field": "Country", "type": "nominal"
+            },
+            "color":{
+                "value": "#189AB4"
+            }
+        }
+    }, {
+        "mark":{
+            "type": "circle"
+        },
+        "encoding": {
+            "detail":{
+                "field": "Country", "type": "nominal"
+            },
+            "color":{
+                "value": "#189AB4"
+            }
+        }
+    },{
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 3
+      },
+      "encoding": {
+        "text": {"field": "Med_age", "type": "quantitative"}
+      }
+    }]
+  }
