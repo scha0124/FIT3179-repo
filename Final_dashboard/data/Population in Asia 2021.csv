@@ -1,52 +1,52 @@
-﻿Country,Population
-China,153
-India,464
-Indonesia,151
-Pakistan,287
-Bangladesh,1265
-Japan,347
-Philippines,368
-Vietnam,314
-Turkey,110
-Iran,52
-Thailand,137
-Myanmar,83
-South Korea,527
-Iraq,93
-Afghanistan,60
-Saudi Arabia,16
-Uzbekistan,79
-Malaysia,99
-Yemen,56
-Nepal,203
-North Korea,214
-Taiwan,673
-Sri Lanka,341
-Kazakhstan,7
-Syria,95
-Cambodia,95
-Jordan,115
-Azerbaijan,123
-United Arab Emirates,118
-Tajikistan,68
-Israel,400
-Hong Kong,7140
-Laos,32
-Lebanon,667
-Kyrgyzstan,34
-Turkmenistan,13
-Singapore,8358
-Palestine,847
-Oman,16
-Kuwait,240
-Georgia,57
-Mongolia,2
-Armenia,104
-Qatar,248
-Bahrain,2239
-East Timor,89
-Northern Cyprus,131
-Bhutan,20
-Macao,21645
-Maldives,1802
-Brunei,83
+﻿Country,Population,Med_age
+China,153,38
+India,464,28
+Indonesia,151,30
+Pakistan,287,23
+Bangladesh,1265,28
+Japan,347,48
+Philippines,368,26
+Vietnam,314,32
+Turkey,110,32
+Iran,52,32
+Thailand,137,40
+Myanmar,83,29
+South Korea,527,44
+Iraq,93,21
+Afghanistan,60,18
+Saudi Arabia,16,32
+Uzbekistan,79,28
+Malaysia,99,30
+Yemen,56,20
+Nepal,203,25
+North Korea,214,35
+Taiwan,673,42
+Sri Lanka,341,34
+Kazakhstan,7,31
+Syria,95,26
+Cambodia,95,26
+Jordan,115,24
+Azerbaijan,123,32
+United Arab Emirates,118,33
+Tajikistan,68,22
+Israel,400,30
+Hong Kong,7140,45
+Laos,32,24
+Lebanon,667,30
+Kyrgyzstan,34,26
+Turkmenistan,13,27
+Singapore,8358,42
+Palestine,847,21
+Oman,16,31
+Kuwait,240,37
+Georgia,57,38
+Mongolia,2,28
+Armenia,104,35
+Qatar,248,32
+Bahrain,2239,32
+East Timor,89,21
+Northern Cyprus,131,37
+Bhutan,20,28
+Macao,21645,39
+Maldives,1802,30
+Brunei,83,32
