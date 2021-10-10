@@ -4,7 +4,7 @@
     "width": 500,
     "height": 300,
     "data": {
-      "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/Week_10/data/Population%20Growth%20in%20ASEAN%20countries.csv"
+      "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/Final_dashboard/data/Population%20Growth%20in%20ASEAN%20countries.csv"
     },
     "encoding": {
         "color": {

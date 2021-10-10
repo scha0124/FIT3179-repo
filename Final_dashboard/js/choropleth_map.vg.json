@@ -4,7 +4,7 @@
   "width": 500,
   "height": 300,
   "data": {
-    "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/Week_10/js/asia.geo.topojson",
+    "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/Final_dashboard/js/asia.geo.topojson",
     "format": {
           "type": "topojson",
           "feature": "custom.geo"
@@ -27,7 +27,7 @@
     { "lookup": "properties.admin",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/Week_10/data/Population%20in%20Asia%202021.csv"
+          "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/Final_dashboard/data/Population%20in%20Asia%202021.csv"
         },
         "key": "Country",
         "fields": ["Population"]
