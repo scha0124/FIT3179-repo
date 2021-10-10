@@ -55,7 +55,7 @@
 
       "tooltip": [
         {"field": "properties.admin", "type": "nominal", "title": "Countries"},
-        {"field": "Population", "type": "quantitative",  "title": "Population density (Person/km2)"}
+        {"field": "Population", "type": "quantitative",  "title": "Population density (Person / km2)"}
       ]
     }}
   

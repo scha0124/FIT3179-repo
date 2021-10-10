@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Population Growth in ASEAN Countries from 2015 to 2020",
+    "title": "Population Growth in ASEAN Countries from 2015 to 2021",
     "width": 500,
     "height": 300,
     "data": {
