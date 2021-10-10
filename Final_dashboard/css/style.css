@@ -52,10 +52,8 @@ body{
 }
 
 #bar_chart {
-	top:-400px;
+	top: 20px;
 	bottom: -50px; 
 	left: 150px;
 	right: 50px;
-	/*height: 1000px;
-	width: 800px;*/
 }
