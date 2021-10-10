@@ -38,7 +38,7 @@
 
 <div>
   <div id="subtitle1">
-    <h2>Population growth in ASEAN countries</h1>
+    <h2>Population growth from 2015 to 2021</h1>
   </div>
 </div>
 
@@ -48,7 +48,21 @@
     vegaEmbed('#line_chart', spec2).then(function(result) {
     }).catch(console.error);
   </script>
-  </div>
+</div>
+
+<div>
+    <div id="subtitle2">
+      <h2>Median Age of Population in 2021</h1>
+    </div>
+</div>
+
+<div id="bar_chart">
+  <script type="text/javascript">
+    var spec3 = "js/bar_chart.vg.json";
+    vegaEmbed('#bar_chart', spec3).then(function(result) {
+    }).catch(console.error);
+  </script>
+</div>
 
 </body>
 </html>
