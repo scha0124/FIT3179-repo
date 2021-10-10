@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Population density in Asia 2021",
-  "width": 500,
-  "height": 300,
+  "width": 1000,
+  "height": 500,
   "data": {
     "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/Final_dashboard/js/asia.geo.topojson",
     "format": {
