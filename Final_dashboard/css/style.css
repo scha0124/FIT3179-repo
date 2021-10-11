@@ -51,9 +51,13 @@ body{
 	margin-bottom: -50px;
 }
 
-#bar_chart {
-	top: 20px;
+#bar_chart{
+	top: 82px;
 	bottom: -50px; 
-	left: 150px;
+	left: 700px;
 	right: 50px;
+}
+
+#blank_space{
+	height: 50px;
 }

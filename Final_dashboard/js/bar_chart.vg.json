@@ -1,5 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 330,
     "description": "Bar chart with text labels. Set domain to make the frame cover the labels.",
     "data": {
         "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/Final_dashboard/data/ASEAN%20Countries%20median%20age.csv"
