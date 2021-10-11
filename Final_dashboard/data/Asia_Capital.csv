@@ -1,0 +1,46 @@
+Country ,Capital Name,lat,lon,Country Code,Continent Name
+Afghanistan,Kabul,34.51666667,69.183333,AF,Asia
+Bahrain,Manama,26.23333333,50.566667,BH,Asia
+Bangladesh,Dhaka,23.71666667,90.4,BD,Asia
+Brunei Darussalam,Bandar Seri Begawan,4.883333333,114.933333,BN,Asia
+Cambodia,Phnom Penh,11.55,104.916667,KH,Asia
+China,Beijing,39.91666667,116.383333,CN,Asia
+India,New Delhi,28.6,77.2,IN,Asia
+Indonesia,Jakarta,-6.166666667,106.816667,ID,Asia
+Iran,Tehran,35.7,51.416667,IR,Asia
+Iraq,Baghdad,33.33333333,44.4,IQ,Asia
+Israel,Jerusalem,31.76666667,35.233333,IL,Asia
+Japan,Tokyo,35.68333333,139.75,JP,Asia
+Jordan,Amman,31.95,35.933333,JO,Asia
+Kazakhstan,Astana,51.16666667,71.416667,KZ,Asia
+Kuwait,Kuwait City,29.36666667,47.966667,KW,Asia
+Kyrgyzstan,Bishkek,42.86666667,74.6,KG,Asia
+Laos,Vientiane,17.96666667,102.6,LA,Asia
+Lebanon,Beirut,33.86666667,35.5,LB,Asia
+Macau,N/A,0,0,MO,Asia
+Malaysia,Kuala Lumpur,3.166666667,101.7,MY,Asia
+Maldives,Male,4.166666667,73.5,MV,Asia
+Mongolia,Ulaanbaatar,47.91666667,106.916667,MN,Asia
+Myanmar,Rangoon,16.8,96.15,MM,Asia
+Nepal,Kathmandu,27.71666667,85.316667,NP,Asia
+North Korea,Pyongyang,39.01666667,125.75,KP,Asia
+Oman,Muscat,23.61666667,58.583333,OM,Asia
+Pakistan,Islamabad,33.68333333,73.05,PK,Asia
+Palestine,Jerusalem,31.76666667,35.233333,PS,Asia
+Philippines,Manila,14.6,120.966667,PH,Asia
+Qatar,Doha,25.28333333,51.533333,QA,Asia
+Saudi Arabia,Riyadh,24.65,46.7,SA,Asia
+Singapore,Singapore,1.283333333,103.85,SG,Asia
+South Korea,Seoul,37.55,126.983333,KR,Asia
+South Sudan,Juba,4.85,31.616667,SS,Africa
+Sri Lanka,Colombo,6.916666667,79.833333,LK,Asia
+Syria,Damascus,33.5,36.3,SY,Asia
+Taiwan,Taipei,25.03333333,121.516667,TW,Asia
+Tajikistan,Dushanbe,38.55,68.766667,TJ,Asia
+Thailand,Bangkok,13.75,100.516667,TH,Asia
+The Gambia,Banjul,13.45,-16.566667,GM,Africa
+Timor-Leste,Dili,-8.583333333,125.6,TL,Asia
+Turkmenistan,Ashgabat,37.95,58.383333,TM,Asia
+United Arab Emirates,Abu Dhabi,24.46666667,54.366667,AE,Asia
+Uzbekistan,Tashkent,41.31666667,69.25,UZ,Asia
+Vietnam,Hanoi,21.03333333,105.85,VN,Asia
