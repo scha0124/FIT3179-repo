@@ -76,6 +76,12 @@
         "mark": {
           "type": "circle",
           "color": "red"
+        },
+        "encoding": {
+          "tooltip": [
+            {"field": "Country ", "type": "nominal", "title": "Country"},
+            {"field": "Capital Name", "type": "nominal",  "title": "Capital City"}
+          ]
         }
       }, {
         "mark": {
@@ -84,6 +90,7 @@
         },
         "encoding": {
           "text": {"field": "Capital Name", "type": "nominal"}
+        
         }
       }]
     }
