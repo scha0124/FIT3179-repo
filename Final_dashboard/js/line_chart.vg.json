@@ -9,8 +9,7 @@
     "encoding": {
         "color": {
             "field": "Country",
-            "type": "nominal",
-            "legend": null
+            "type": "nominal"
         }
     },
     "layer": [{
@@ -19,33 +18,48 @@
         "x": {"field": "Year", "type": "nominal"},
         "y": {"field": "Population", "type": "quantitative"},
         "color": {"field": "Country", "type": "nominal"},
+        "opacity":{
+          "condition":{"selection": "series", "value": 1},
+          "value":0.2
+        },
         "tooltip": [
             {"field": "Country", "type": "nominal", "title": "Country"},
             {"field": "Population", "type": "nominal"}
           ]
+        },
+        "selection":{
+          "series": {
+            "type": "multi",
+            "encodings": ["color"],
+            "on": "click",
+            "bind": "legend"
+          }
         }
-    },{
+    },
+    {
         "mark": "circle",
         "encoding": {
           "x": {"field": "Year", "type": "nominal"},
           "y": {"field": "Population", "type": "quantitative"},
           "color": {"field": "Country", "type": "nominal"},
+          "opacity":{
+            "condition":{"selection": "series2", "value": 1},
+            "value":0.2
+          },
           "tooltip": [
               {"field": "Country", "type": "nominal", "title": "Country"},
               {"field": "Population", "type": "nominal", "title": "Population (Person / km2)"}
             ]
-          }
-      },{
-        "encoding": {
-            "x": {"aggregate":"max", "field": "Year", "type": "nominal", "title": "Year"},
-            "y": {"aggregate":{"argmax": "Country"}, "field": "Population","type": "quantitative","title": "Population (Person / km2)"}
-        },
-    "layer": [{
-        "mark": {"type": "text", "align": "left", "dx": 10},
-        "encoding": {"text": {"field": "Country", "type": "nominal"}}
-      }]    
-    }],
-    "config": {"view": {"stroke": null}}
+          },
+          "selection":{
+            "series2": {
+              "type": "multi",
+              "encodings": ["color"],
+              "on": "click",
+              "bind": "legend"
+            }
+          } 
+    }]
   
   }
   
