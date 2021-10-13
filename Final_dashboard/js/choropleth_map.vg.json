@@ -20,6 +20,25 @@
         "step": 100,
         "name": "Minimum Population: "
       }
+    },
+    {
+      "name": "Country_selection",
+      "bind":{
+        "input": "select",
+        "options":[
+          null,
+          "Malaysia",
+          "Singapore",
+          "China"
+        ],
+        "labels": [
+          "Show All",
+          "Malaysia",
+          "Singapore",
+          "China"
+        ],
+        "name": "Country Selection: "
+      }
     }
   ],
   "transform": [
@@ -32,14 +51,19 @@
         "fields": ["Population"]
       }
     },
-    {"filter": "datum.Population > Population_Above"}
+    {"filter": "datum.Population > Population_Above"},
+    {"filter": "Country_selection == null || datum.Country == Country_selection"}
   ],
   "projection": { 
     "type": "equirectangular"
   },
   "layer":[ 
     {
-      "mark": "geoshape",
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#757575",
+      "strokeWidth": 0.5
+      },
       "encoding": {
       "color": {
       "field": "Population",
