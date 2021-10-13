@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Population density in Asia 2021",
   "width": 1000,
   "height": 500,
   "data": {
@@ -57,43 +56,7 @@
         {"field": "properties.admin", "type": "nominal", "title": "Countries"},
         {"field": "Population", "type": "quantitative",  "title": "Population density (Person/km2)"}
       ]
-    }},
-    {
-      "data":{
-        "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/Final_dashboard/data/Asia_Capital.csv"
-      },
-      "encoding": {
-        "longitude": {
-          "field": "lon",
-          "type": "quantitative"
-        },
-        "latitude": {
-          "field": "lat",
-          "type": "quantitative"
-        }
-      },
-      "layer": [{
-        "mark": {
-          "type": "circle",
-          "color": "red"
-        },
-        "encoding": {
-          "tooltip": [
-            {"field": "Country ", "type": "nominal", "title": "Country"},
-            {"field": "Capital Name", "type": "nominal",  "title": "Capital City"}
-          ]
-        }
-      }, {
-        "mark": {
-          "type": "text",
-          "dy": -10
-        },
-        "encoding": {
-          "text": {"field": "Capital Name", "type": "nominal"}
-        
-        }
-      }]
-    }
+    }}
   
   ]
 

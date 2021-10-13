@@ -1,7 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Population Growth in ASEAN Countries from 2015 to 2021",
-    "width": 500,
+    "width": 390,
     "height": 300,
     "data": {
       "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/Final_dashboard/data/Population%20Growth%20in%20ASEAN%20countries.csv"
@@ -59,7 +58,40 @@
               "bind": "legend"
             }
           } 
-    }]
+    }],
+    "legends": [
+  {
+    "fill": "color",
+    "encode": {
+      "title": {
+        "update": {
+          "fontSize": {"value": 14}
+        }
+      },
+      "labels": {
+        "interactive": true,
+        "update": {
+          "fontSize": {"value": 12},
+          "fill": {"value": "black"}
+        },
+        "hover": {
+          "fill": {"value": "firebrick"}
+        }
+      },
+      "symbols": {
+        "update": {
+          "stroke": {"value": "transparent"}
+        }
+      },
+      "legend": {
+        "update": {
+          "stroke": {"value": "#ccc"},
+          "strokeWidth": {"value": 1.5}
+        }
+      }
+    }
+  }
+]
   
   }
   

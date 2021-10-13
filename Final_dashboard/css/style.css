@@ -5,24 +5,29 @@
 }
 
 #title2{
-	margin-left: 600px;
+	margin-left: 580px;
 	margin-bottom: -50px;
 	margin-top: 150px;
 	align-self: center;
 }
 
+.img1 img{
+	margin-top: 10px;
+	margin-left: 70px;
+	width: 5vw;
+	height: 3vw;
+}
+
 body{
-	background-color: whitesmoke;
 }
 
 #container2{
-	background-color: cornsilk;
 	height: 50px;
 }
 
 #subtitle1{
-	margin-top: 50px;
-	margin-left: 100px;
+	margin-top: 100px;
+	margin-left: 500px;
 	margin-bottom: -50px;
 	align-self: left;
 }
@@ -39,20 +44,32 @@ body{
 #line_chart {
 	top:80px;
 	bottom: 100px; 
-	left: 30px;
+	left: 400px;
 	right: 50px;
 	/*height: 1000px;
 	width: 800px;*/
 }
 
+.line_chart_description{
+	padding-left: 30px;
+	width:25vw;
+	margin-top: -300px;
+}
+
+.line_chart_description2{
+	padding-left: 980px;
+	width:25vw;
+	margin-top: -185px;
+}
+
 #subtitle2{
-	margin-top: -400px;
+	margin-top: 200px;
 	margin-left: 850px;
 	margin-bottom: -50px;
 }
 
 #bar_chart{
-	top: 82px;
+	top: 100px;
 	bottom: -50px; 
 	left: 700px;
 	right: 50px;
