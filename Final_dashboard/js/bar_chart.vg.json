@@ -7,24 +7,12 @@
         "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/Final_dashboard/data/ASEAN%20Countries%20median%20age.csv"
       },
     "encoding": {
-      "x": {"field": "Med_age", "type": "quantitative", "scale": {"domain":[0,50]}, "title": "Median age"},
-      "y": {"field": "Country", "type": "nominal"}
+      "x": {"field": "Country", "type": "nominal"},
+      "y": {"field": "Med_age", "type": "quantitative", "scale": {"domain":[0,50]}, "title": "Median age"}
     },
     "layer": [
         {
-        "mark": {"type": "bar", "height": 3},
-        "encoding": {
-            "detail":{
-                "field": "Country", "type": "nominal"
-            },
-            "color":{
-                "value": "#189AB4"
-            }
-        }
-    }, {
-        "mark":{
-            "type": "circle"
-        },
+        "mark": {"type": "bar", "width": 25},
         "encoding": {
             "detail":{
                 "field": "Country", "type": "nominal"
@@ -36,9 +24,8 @@
     },{
       "mark": {
         "type": "text",
-        "align": "left",
-        "baseline": "middle",
-        "dx": 3
+        "dy": -10,
+        "fontSize": 15
       },
       "encoding": {
         "text": {"field": "Med_age", "type": "quantitative"}

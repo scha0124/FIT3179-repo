@@ -27,7 +27,7 @@ body{
 
 #subtitle1{
 	margin-top: 100px;
-	margin-left: 500px;
+	margin-left: 480px;
 	margin-bottom: -50px;
 	align-self: left;
 }
@@ -57,22 +57,28 @@ body{
 }
 
 .line_chart_description2{
-	padding-left: 980px;
+	padding-left: 1010px;
 	width:25vw;
 	margin-top: -185px;
 }
 
 #subtitle2{
 	margin-top: 200px;
-	margin-left: 850px;
+	margin-left: 800px;
 	margin-bottom: -50px;
 }
 
 #bar_chart{
 	top: 100px;
 	bottom: -50px; 
-	left: 700px;
-	right: 50px;
+	padding-left: 30px;
+
+}
+
+.bar_chart_description{
+	padding-left: 700px;
+	width:25vw;
+	margin-top: -185px;
 }
 
 #blank_space{
