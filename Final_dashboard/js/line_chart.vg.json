@@ -12,7 +12,7 @@
         }
     },
     "layer": [{
-      "mark": "line",
+      "mark": {"type": "line", "cursor": "pointer"},
       "encoding": {
         "x": {"field": "Year", "type": "nominal"},
         "y": {"field": "Population", "type": "quantitative"},
@@ -32,7 +32,7 @@
         }
     },
     {
-        "mark": "circle",
+      "mark": {"type": "circle", "cursor": "pointer"},
         "encoding": {
           "x": {"field": "Year", "type": "nominal"},
           "y": {"field": "Population", "type": "quantitative"},
