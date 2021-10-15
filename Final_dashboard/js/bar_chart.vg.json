@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 500,
+    "width": 550,
     "height": 330,
     "description": "Bar chart with text labels. Set domain to make the frame cover the labels.",
     "data": {
