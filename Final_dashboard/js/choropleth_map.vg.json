@@ -48,10 +48,10 @@
           "url": "https://raw.githubusercontent.com/scha0124/FIT3179-repo/main/Final_dashboard/data/Population%20in%20Asia%202021.csv"
         },
         "key": "Country",
-        "fields": ["Population"]
+        "fields": ["Population_density"]
       }
     },
-    {"filter": "datum.Population > Population_Above"},
+    {"filter": "datum.Population_density > Population_Above"},
     {"filter": "Country_selection == null || datum.Country == Country_selection"}
   ],
   "projection": { 
@@ -66,7 +66,7 @@
       },
       "encoding": {
       "color": {
-      "field": "Population",
+      "field": "Population_density",
       "type": "quantitative",
       "scale": {
         "type": "threshold",
@@ -78,7 +78,7 @@
 
       "tooltip": [
         {"field": "properties.admin", "type": "nominal", "title": "Countries"},
-        {"field": "Population", "type": "quantitative",  "title": "Population density (Person/km2)"}
+        {"field": "Population_density", "type": "quantitative",  "title": "Population density (Person/km2)"}
       ]
     }}
   
