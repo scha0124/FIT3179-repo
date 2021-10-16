@@ -18,7 +18,7 @@
                 "field": "Country", "type": "nominal"
             },
             "color":{
-                "value": "#189AB4"
+                "value": "#92c4d6"
             },
             "tooltip": [
               {"field": "Country", "type": "nominal", "title": "Country"},
