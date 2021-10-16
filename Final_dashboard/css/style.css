@@ -1,9 +1,9 @@
 #title{
-	margin-left: 370px;
-	margin-top: 30px;
-	margin-bottom: -50px;
+	margin-left: 270px;
+	margin-top: 40px;
+	margin-bottom: -60px;
 	align-self: center;
-	font-size: larger;
+	font-size:x-large;
 }
 
 #title2{
@@ -13,7 +13,6 @@
 	padding-top: 3px;
 	padding-bottom: 20px;
 	align-self: center;
-	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: large;
 }
 
@@ -126,12 +125,15 @@
 	padding-left: 700px;
 	width:25vw;
 	margin-top: -300px;
+	font-family: sans-serif;
 }
 
 .line_chart_description2{
 	padding-left: 1075px;
 	width:25vw;
-	margin-top: -262px;
+	margin-top: -278px;
+	font-family: sans-serif;
+
 }
 
 #subtitle2{
@@ -152,4 +154,6 @@
 	padding-left: 100px;
 	width:30vw;
 	margin-top: -450px;
+	font-family: sans-serif;
+
 }
