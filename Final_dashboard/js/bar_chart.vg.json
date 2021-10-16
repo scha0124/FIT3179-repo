@@ -8,18 +8,22 @@
       },
     "encoding": {
       "x": {"field": "Country", "type": "nominal"},
-      "y": {"field": "Med_age", "type": "quantitative", "scale": {"domain":[0,50]}, "title": "Median age"}
+      "y": {"field": "Med_age", "type": "quantitative", "scale": {"domain":[0,50]}, "title": "Median age (years old)"}
     },
     "layer": [
         {
-        "mark": {"type": "bar", "width": 25},
+        "mark": {"type": "bar", "width": 25, "cursor":"pointer"},
         "encoding": {
             "detail":{
                 "field": "Country", "type": "nominal"
             },
             "color":{
                 "value": "#189AB4"
-            }
+            },
+            "tooltip": [
+              {"field": "Country", "type": "nominal", "title": "Country"},
+              {"field": "Med_age", "type": "quantitative", "title": "Median age"}
+            ]
         }
     },{
       "mark": {

@@ -15,7 +15,7 @@
       "mark": {"type": "line", "cursor": "pointer"},
       "encoding": {
         "x": {"field": "Year", "type": "nominal"},
-        "y": {"field": "Population", "type": "quantitative"},
+        "y": {"field": "Population", "type": "quantitative", "title": "Population density (person / km2)"},
         "color": {"field": "Country", "type": "nominal"},
         "opacity":{
           "condition":{"selection": "series", "value": 1},
@@ -43,7 +43,7 @@
           },
           "tooltip": [
               {"field": "Country", "type": "nominal", "title": "Country"},
-              {"field": "Population", "type": "nominal", "title": "Population (Person / km2)"}
+              {"field": "Population", "type": "nominal", "title": "Population density (Person / km2)"}
             ]
           },
           "selection":{
